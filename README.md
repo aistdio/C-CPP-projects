@@ -11,3 +11,4 @@ Implementation of grep and cat (Linux) utilities in C language
 
 # First_month:
 Folder with individual (sub-folders starting with letter T) and group projects
+done in first month of studying in s21
