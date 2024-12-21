@@ -1,5 +1,5 @@
 # C-projects
-Projects done while studying at school 21
+Projects done while studying at programming school 21 by Sber
 
 # Sprintf:
 Implementation of sprintf function from C standart library
