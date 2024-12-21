@@ -1,0 +1,4 @@
+vim door_1.conf
+:%s/CLOSED/OPEN/g
+:w
+:x
