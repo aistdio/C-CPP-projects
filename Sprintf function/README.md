@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-# Sprintf function implementation with different structure
-=======
 # Sprintf function implementation
->>>>>>> 026ef72 (Upload 2)
 For now works only with limited number of specifiers.
 
 This folder contains only main source file and header file.
