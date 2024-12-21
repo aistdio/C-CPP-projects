@@ -1,4 +1,4 @@
-# Sprintf function (from string.h) implementation with different structure
+# Sprintf function implementation with different structure
 For now works only with limited number of specifiers.
 
 This folder contains only main source file and header file.
