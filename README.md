@@ -2,9 +2,7 @@
 
 
 # Sprintf:
-Implementation of sprintf function from C standart library
-
-with different structure
+Different implementation of sprintf function from C standart library
 
 # Grep && Cat:
 Implementation of grep and cat (Linux) utilities in C language
