@@ -8,4 +8,4 @@ Different implementation of sprintf function from C standart library
 Implementation of grep and cat (Linux) utilities in C language
 
 # Misc projects:
-Folder with individual (sub-folders starting with letter T) and group projects implementing different miscellaneous functions in C
+Folder with a compilation of different projects implementing different functions in C language
