@@ -14,7 +14,7 @@ Implementation of decimal type with different operations for using this type
 Implementation of sprintf function from C standart library
 
 # Grep && Cat:
-Implementation of grep and cat (Linux) utilities
+Implementation of grep and cat (Linux) utilities in C language
 
 # Misc projects:
 Folder with a compilation of different projects implementing different functions
