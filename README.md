@@ -1,8 +1,10 @@
-# C-projects
+# C/C++ projects
 
+# Matrices (Version in C++ language):
+Implementation of matrix library that can perform different operations with matrices
 
-# Matrices:
-Implementation of matrix library (with matrix_struct) that can perform different operations with matrices
+# Matrices (Version in C language):
+Implementation of matrix library that can perform different operations with matrices
 
 # Image Filter:
 Implementation of image filtering application with different filters to choose from (sepia/grayscale/blur/reflect)
