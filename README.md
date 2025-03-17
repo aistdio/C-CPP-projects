@@ -1,3 +1,12 @@
+# Java projects
+
+# PhoneBook
+A program that stores a directory of telephone numbers (name, phone number) in memory. It is filled with 100,000 entries. Every N milliseconds, a random number of records change their phone number to a different one. After T seconds from the start of the program, the console displays the entries that were in the directory M seconds ago.
+
+N, M, T are random numbers, where 500<N<5000, 0<M<30, 60<T<300
+
+The value of N is determined anew each time before the next change in the directory numbers.
+
 # C/C++ projects
 
 # Matrices (Version in C++ language):
