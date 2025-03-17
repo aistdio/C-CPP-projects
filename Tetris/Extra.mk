@@ -1,19 +1,16 @@
-s: clangF install
-	./build/$(OUTPUT_NAME)
-
-v: clean clangF quick_compile
+valgrind_quick: clean clangF quick_compile
 	valgrind --tool=memcheck --leak-check=yes ./$(BUILD_DIR)quick_test
 
-vt: clean clangF test
+valgrind_test_quick: clean clangF test
 	valgrind --tool=memcheck --leak-check=yes ./$(BUILD_DIR)$(TEST_DIR)$(OUTPUT_NAME)_test
 
-q: clean clangF quick_compile
+quick: clean clangF quick_compile
 	./$(BUILD_DIR)quick_test
 
 quick_compile: create_dir
 	@$(CC) $(CFLAGSNOERROR) $(SRC) $(MAIN_DIR)$(MAIN_NAME).c $(LIBS) -o $(BUILD_DIR)quick_test
 
-f: clean clangF create_dir
+fsanitize_quick: clean clangF create_dir
 	@$(CC) $(CFLAGSNOERROR) $(SRC) $(MAIN_DIR)$(MAIN_NAME).c $(LIBS) $(FSANITIZE) -o $(BUILD_DIR)quick_test && $(BUILD_DIR)quick_test
 
 cppcheck: clangF
